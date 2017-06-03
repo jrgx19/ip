@@ -1,3 +1,5 @@
-<?php
-echo $_SERVER['REMOTE_ADDR'];
-?>
+<?php 
+ //Gets the IP address
+ $ip = getenv("REMOTE_ADDR") ; 
+ Echo "Your IP is " . $ip; 
+ ?>
